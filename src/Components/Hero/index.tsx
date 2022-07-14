@@ -7,6 +7,7 @@ export function Hero() {
         flexDirection={{ base: 'column', md: 'row' }}
         justifyContent={'space-between'}
         alignItems={'center'}
+        minH={'550px'}
       >
         <Box w={{ base: '70%', md: '40%' }}>
           <Image rounded={'md'} src="/carol.jpg" alt="Carolina Procaci"></Image>

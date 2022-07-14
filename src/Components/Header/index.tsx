@@ -17,6 +17,7 @@ export function Header() {
         margin={'auto'}
         px={4}
         maxWidth={'1440px'}
+        minH={'166px'}
         justifyContent={{ base: 'center', md: 'space-between' }}
         alignItems="center"
         flexDirection={{ base: 'column', md: 'row' }}
